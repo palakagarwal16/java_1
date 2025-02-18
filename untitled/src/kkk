@@ -1,0 +1,18 @@
+interface inter1
+{
+public void show();
+}
+class m implements inter1
+{
+public void show()
+{
+system.out.println(" abcdefjhi");
+}
+}
+class n
+{
+public static void main(String kj[])
+{
+inter1 in=new m();
+in.show();
+}}
